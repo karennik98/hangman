@@ -29,3 +29,4 @@ def game():
     if not win:
         print('\n'.join(stages[0: wrong_guesses]))
         print('You lose! The word was: {}'.format(word))
+game()
